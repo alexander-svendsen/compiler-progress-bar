@@ -1,6 +1,9 @@
-<html>
-<header>
-  <title>Compilling...</title></header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Compilling...</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <style>
     body {
       margin: 0;
@@ -36,12 +39,16 @@
       height: 80px;
       background-color: #fff;
       border-radius: 10px 0 0 10px;
-
-
     }
+
   </style>
   <link href="https://fonts.googleapis.com/css?family=Asap&display=swap" rel="stylesheet">
+</head>
 <body>
+  <noscript>
+      You need to enable JavaScript to run this app. ¯\_(ツ)_/¯
+  </noscript>
+
 
   <h1 id="title">Compilling...</h1>
   <div id="progressContainer">
@@ -52,8 +59,6 @@
 
 <script type="text/javascript">
   function move() {
-
-
     const urlParams = new URLSearchParams(window.location.search);
     const myParam = urlParams.get('speed');
 
